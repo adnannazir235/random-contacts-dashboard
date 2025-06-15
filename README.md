@@ -19,7 +19,6 @@ A React-based dashboard that lets users search, save, tag, and manage random con
 ### 🏷️ Tag & Categorize
 
 - Assign tags like **Friend**, **Colleague**, or **Important**.
-- Tags are editable and persist across sessions.
 
 ### 🔎 Filter & Search Saved Contacts
 
@@ -59,7 +58,7 @@ src/
 ## 🛠️ Technologies Used
 
 - React
-- Bootstrap 5 (locally imported)
+- Bootstrap 5
 - Vite
 - LocalStorage API
 - Native HTML `<dialog>` and Popover API
