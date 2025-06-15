@@ -7,7 +7,7 @@ A React-based dashboard that lets users search, save, tag, and manage random con
 ### 🔍 Search & Fetch
 
 - Search for random users by name or location.
-- Filter users by gender or nationality.
+- Filter users by gender or nationality before fetching new users.
 - Powered by [randomuser.me API](https://randomuser.me/).
 
 ### 💾 Save Contacts Locally
@@ -26,22 +26,22 @@ A React-based dashboard that lets users search, save, tag, and manage random con
   - Tag
   - Gender
   - Country
-  - Name (partial match)
+  - Name
 
 ### 🗑️ Remove Contacts
 
 - Delete individual contacts.
-- Option to clear **all** saved contacts with confirmation dialog.
+- Option to clear **all** saved contacts with a confirmation dialog in the “Settings” section.
 
 ### 🌙 Dark Mode
 
-- Toggle between Light and Dark themes.
+- Toggle between Light and Dark theme.
 - Theme is saved in localStorage and restored on reload.
 
 ### 📲 Installable (PWA Support)
 
 - Works as a Progressive Web App (PWA).
-- Can be installed to home screen on mobile or desktop for native-like experience.
+- Can be installed to home screen on mobile for native-like experience.
 
 ## 📂 Folder Structure
 
@@ -147,7 +147,7 @@ This project helped practice:
 - Custom hooks
 - LocalStorage usage
 - Bootstrap 5 usage in React
-- Working with REST APIs
+- Working with Fetch API
 - Conditional rendering and filtering
 - Modular project structure
 
