@@ -31,7 +31,7 @@ export default function RandomUsers({ localdb, setLocaldb }) {
       setIsLoading(true);
       try {
         const response = await fetch(
-          import.meta.env.VITE_API_RANDOM_API_URL +
+          "https://randomuser.me/api/" +
             "?" +
             `${
               formValues.inputs.nat === "n/a"
