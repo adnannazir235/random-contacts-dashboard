@@ -1,6 +1,6 @@
 {
     "name": "Random Contacts Dashboard",
-    "short_name": "Contacts Dashboard",
+    "short_name": "Random Contacts Dashboard",
     "icons": [
         {
             "src": "/random-contacts-dashboard/android-chrome-192x192.png",
