@@ -62,6 +62,7 @@ export default function UserCard({ user, localdb, setLocaldb, tags, setTags }) {
           src={user.picture.large}
           className="card-img-top"
           alt={name + "'s Photo"}
+          loading="lazy"
         />
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
