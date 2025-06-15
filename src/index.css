@@ -1,0 +1,39 @@
+* {
+  outline: none;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.d-flex,
+.row {
+  align-items: center;
+  justify-content: center;
+}
+
+img,
+button,
+.btn,
+input,
+select,
+dialog {
+  user-select: none;
+}
+
+img:not(.card-img-top),
+svg,
+button,
+input,
+select {
+  border-radius: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
