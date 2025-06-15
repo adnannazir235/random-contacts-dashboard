@@ -1,4 +1,4 @@
-# 🧑‍💼 Random Contacts Dashboard
+# 💼 Random Contacts Dashboard
 
 A React-based dashboard that lets users search, save, tag, and manage random contacts using the [RandomUser API](https://randomuser.me/). The app also features dark mode, local storage persistence, and filtering capabilities. It is also a **PWA** (Progressive Web App), allowing installation on supported devices.
 
