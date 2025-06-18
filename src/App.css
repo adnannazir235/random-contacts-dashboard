@@ -19,16 +19,21 @@ main {
   border: 1px solid;
 }
 
-body main.container-fluid div.row nav {
+body main.container-fluid > div.row {
+  min-height: 38.4rem;
+}
+body main.container-fluid > div.row nav {
   flex-direction: column;
   align-self: stretch;
 }
-body main.container-fluid div.row section {
+body main.container-fluid > div.row section {
   align-self: stretch;
 }
 
 @media (max-width: 767.98px) {
   body main.container-fluid > div.row {
+    min-height: -moz-fit-content;
+    min-height: fit-content;
     flex-direction: column;
   }
   body main.container-fluid > div.row nav {

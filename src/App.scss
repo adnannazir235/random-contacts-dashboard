@@ -23,7 +23,8 @@ body {
 
     main.container-fluid {
 
-        div.row {
+        >div.row {
+            min-height: 38.4rem;
 
             nav {
                 flex-direction: column;
@@ -44,6 +45,7 @@ body {
         main.container-fluid {
 
             >div.row {
+                min-height: fit-content;
                 flex-direction: column;
 
                 nav {

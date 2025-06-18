@@ -12,6 +12,7 @@ other
 dist
 dist-ssr
 *.local
+src/App.css.map
 
 # Editor directories and files
 .vscode/*

@@ -34,12 +34,7 @@ function App() {
     <>
       <Header reactLogo={reactLogo} viteLogo={viteLogo} />
       <main className="container-fluid">
-        <div
-          className="row align-items-start justify-content-start"
-          style={{
-            minHeight: currentTab !== "settings" ? "38.80rem" : "fit-content",
-          }}
-        >
+        <div className="row align-items-start justify-content-start">
           <nav
             className="col-md-2 nav nav-pills p-3 border border-1"
             style={{ rowGap: "1.5rem" }}
