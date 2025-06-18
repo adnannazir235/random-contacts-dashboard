@@ -36,10 +36,12 @@ function App() {
       <main className="container-fluid">
         <div
           className="row align-items-start justify-content-start"
-          style={{ minHeight: "38.80rem" }}
+          style={{
+            minHeight: currentTab !== "settings" ? "38.80rem" : "fit-content",
+          }}
         >
           <nav
-            className="col-md-2 nav flex-column align-self-stretch nav-pills p-3 border border-1"
+            className="col-md-2 nav nav-pills p-3 border border-1"
             style={{ rowGap: "1.5rem" }}
             id="v-pills-tab"
             role="tablist"
@@ -101,7 +103,7 @@ function App() {
           </nav>
 
           <section
-            className="col-md-10 tab-content align-self-stretch p-4 border border-1"
+            className="col-md-10 tab-content p-4 border border-1"
             id="v-pills-tabContent"
           >
             <div

@@ -17,4 +17,31 @@
 aside,
 main {
   border: 1px solid;
+}
+
+body main.container-fluid div.row nav {
+  flex-direction: column;
+  align-self: stretch;
+}
+body main.container-fluid div.row section {
+  align-self: stretch;
+}
+
+@media (max-width: 767.98px) {
+  body main.container-fluid > div.row {
+    flex-direction: column;
+  }
+  body main.container-fluid > div.row nav {
+    flex-direction: row;
+    align-self: auto;
+  }
+  body main.container-fluid > div.row nav button.nav-link:first-child {
+    margin-left: auto;
+  }
+  body main.container-fluid > div.row nav button.nav-link:last-child {
+    margin-right: auto;
+  }
+  body main.container-fluid > div.row section {
+    flex-grow: 1;
+  }
 }/*# sourceMappingURL=App.css.map */

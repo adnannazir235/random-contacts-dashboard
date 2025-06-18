@@ -19,4 +19,50 @@ main {
     border: 1px solid;
 }
 
-@media (max-width: 767.98px) {}
+body {
+
+    main.container-fluid {
+
+        div.row {
+
+            nav {
+                flex-direction: column;
+                align-self: stretch;
+            }
+
+            section {
+                align-self: stretch;
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    body {
+
+        main.container-fluid {
+
+            >div.row {
+                flex-direction: column;
+
+                nav {
+                    flex-direction: row;
+                    align-self: auto;
+
+                    button.nav-link:first-child {
+                        margin-left: auto;
+                    }
+
+                    button.nav-link:last-child {
+                        margin-right: auto;
+                    }
+                }
+
+                section {
+                    flex-grow: 1;
+                }
+            }
+        }
+    }
+}
